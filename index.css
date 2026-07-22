@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    
-    <!-- This will be moved to a separate CSS file -->
-    <style>
-        * {    
+* {    
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -153,49 +144,3 @@
                 gap: 1rem;
             }
         }
-    </style>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">&#x1F433; MyPortfolio &#x1F433;</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero" id="home">
-            <h1>Welcome to My Portfolio Site!</h1>
-            <p>A place for me to compile my projects and test around.</p>
-            <button class="btn">Random Project</button>
-        </section>
-
-        <section id="projects">
-            <h2 style="text-align: center; margin-bottom: 2rem; color: #5C5371;">Current News</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>BREAKING NEWS</h3>
-                    <p>Currently buttons are not working.</p>
-                </div>
-                <div class="card">
-                    <h3>YLE would</h3>
-                    <p>No projects added yet.</p>
-                </div>
-                <div class="card">
-                    <h3>ATTENTION</h3>
-                    <p>Will be adding more soon!</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
-    </footer>
-</body>
-</html>
